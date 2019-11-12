@@ -52,9 +52,3 @@ type Comments struct {
 type Tags struct {
 	Tags []string `json:"tags"`
 }
-
-type Error struct {
-	Errors struct{
-		Body []string `json:"body"`
-	} `json:"errors"`
-}
